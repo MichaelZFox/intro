@@ -9,11 +9,35 @@
 <body>
     
     <div class="container">
-        <video src="/video/cover.mp4" id="video-slider" autoplay loop></video>
+        <video src="/video fabrics/IMG_6804.mp4" id="video-slider" autoplay loop></video>
         <ul class="controls">
-            <li onclick="videoUrl('video/cover.mp4')"><img src="/video_fabrics/Screens/Снимок экрана 2023-09-07 в 23.50.56.png" alt=""></li>
-            <li onclick="videoUrl('video/cover.mp4')"><img src="/video_fabrics/Screens/Снимок экрана 2023-09-07 в 23.51.18.png" alt=""></li>
-            <li onclick="videoUrl('video/cover.mp4')"><img src="/video/cover.jpg" alt=""></li>
+            <li onclick="videoUrl('video fabrics/IMG_6804')"><img src="/video fabrics/Screens/Снимок экрана 2023-09-07 в 23.50.56.png" alt=""></li>
+            <li onclick="videoUrl('video fabrics/IMG_6894')"><img src="/video fabrics/Screens/Снимок экрана 2023-09-07 в 23.51.18.png" alt=""></li>
+        </ul>
+    </div>
+
+    <script>
+        function videoUrl(slider) {
+            document.getElementById('video-slider').src = slider;
+        }
+    </script>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ткани</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <video src="/video fabrics/IMG_6804.mp4" id="video-slider" autoplay loop></video>
+        <ul class="controls">
+            <li onclick="videoUrl('video fabrics/IMG_6804')"><img src="/video fabrics/Screens/Снимок экрана 2023-09-07 в 23.50.56.png" alt=""></li>
+            <li onclick="videoUrl('video fabrics/IMG_6894')"><img src="/video fabrics/Screens/Снимок экрана 2023-09-07 в 23.51.18.png" alt=""></li>
         </ul>
     </div>
 
